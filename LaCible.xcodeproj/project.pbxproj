@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B957C9781D70B3AF00FB268F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B957C96D1D70B3AF00FB268F /* AppDelegate.swift */; };
+		B957C9791D70B3AF00FB268F /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = B957C96E1D70B3AF00FB268F /* BullsEye.html */; };
+		B957C97B1D70B3AF00FB268F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B957C9721D70B3AF00FB268F /* Info.plist */; };
+		B957C97C1D70B3AF00FB268F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B957C9731D70B3AF00FB268F /* Assets.xcassets */; };
+		B957C97D1D70B3AF00FB268F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B957C9741D70B3AF00FB268F /* ViewController.swift */; };
+		B957C97E1D70B3AF00FB268F /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B957C9751D70B3AF00FB268F /* AboutViewController.swift */; };
+		B957C97F1D70B3AF00FB268F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B957C9761D70B3AF00FB268F /* Default@2x.png */; };
+		B957C9801D70B3AF00FB268F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B957C9771D70B3AF00FB268F /* Default-568h@2x.png */; };
+		B957C9841D70B3F600FB268F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B957C9821D70B3F600FB268F /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7B56EDBC1B5D164500370296 /* LaCible.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaCible.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B957C96D1D70B3AF00FB268F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = LaCible/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		B957C96E1D70B3AF00FB268F /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = BullsEye.html; path = LaCible/BullsEye.html; sourceTree = SOURCE_ROOT; };
+		B957C9721D70B3AF00FB268F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = LaCible/Info.plist; sourceTree = SOURCE_ROOT; };
+		B957C9731D70B3AF00FB268F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = LaCible/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		B957C9741D70B3AF00FB268F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = LaCible/ViewController.swift; sourceTree = SOURCE_ROOT; };
+		B957C9751D70B3AF00FB268F /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutViewController.swift; path = LaCible/AboutViewController.swift; sourceTree = SOURCE_ROOT; };
+		B957C9761D70B3AF00FB268F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "LaCible/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		B957C9771D70B3AF00FB268F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "LaCible/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		B957C9831D70B3F600FB268F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B56EDB91B5D164500370296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B56EDB31B5D164500370296 = {
+			isa = PBXGroup;
+			children = (
+				7B56EDBE1B5D164500370296 /* LaCible */,
+				7B56EDBD1B5D164500370296 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B56EDBD1B5D164500370296 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B56EDBC1B5D164500370296 /* LaCible.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B56EDBE1B5D164500370296 /* LaCible */ = {
+			isa = PBXGroup;
+			children = (
+				B957C9811D70B3F600FB268F /* Base.lproj */,
+				B957C96D1D70B3AF00FB268F /* AppDelegate.swift */,
+				B957C96E1D70B3AF00FB268F /* BullsEye.html */,
+				B957C9721D70B3AF00FB268F /* Info.plist */,
+				B957C9731D70B3AF00FB268F /* Assets.xcassets */,
+				B957C9741D70B3AF00FB268F /* ViewController.swift */,
+				B957C9751D70B3AF00FB268F /* AboutViewController.swift */,
+				B957C9761D70B3AF00FB268F /* Default@2x.png */,
+				B957C9771D70B3AF00FB268F /* Default-568h@2x.png */,
+			);
+			name = LaCible;
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		B957C9811D70B3F600FB268F /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				B957C9821D70B3F600FB268F /* Main.storyboard */,
+			);
+			name = Base.lproj;
+			path = LaCible/Base.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B56EDBB1B5D164500370296 /* LaCible */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B56EDCE1B5D164500370296 /* Build configuration list for PBXNativeTarget "LaCible" */;
+			buildPhases = (
+				7B56EDB81B5D164500370296 /* Sources */,
+				7B56EDB91B5D164500370296 /* Frameworks */,
+				7B56EDBA1B5D164500370296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaCible;
+			productName = BullsEye;
+			productReference = 7B56EDBC1B5D164500370296 /* LaCible.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B56EDB41B5D164500370296 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Razeware;
+				TargetAttributes = {
+					7B56EDBB1B5D164500370296 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 7B56EDB71B5D164500370296 /* Build configuration list for PBXProject "LaCible" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B56EDB31B5D164500370296;
+			productRefGroup = 7B56EDBD1B5D164500370296 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B56EDBB1B5D164500370296 /* LaCible */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B56EDBA1B5D164500370296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B957C97B1D70B3AF00FB268F /* Info.plist in Resources */,
+				B957C9801D70B3AF00FB268F /* Default-568h@2x.png in Resources */,
+				B957C97F1D70B3AF00FB268F /* Default@2x.png in Resources */,
+				B957C9841D70B3F600FB268F /* Main.storyboard in Resources */,
+				B957C9791D70B3AF00FB268F /* BullsEye.html in Resources */,
+				B957C97C1D70B3AF00FB268F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B56EDB81B5D164500370296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B957C97E1D70B3AF00FB268F /* AboutViewController.swift in Sources */,
+				B957C97D1D70B3AF00FB268F /* ViewController.swift in Sources */,
+				B957C9781D70B3AF00FB268F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B957C9821D70B3F600FB268F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B957C9831D70B3F600FB268F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B56EDCC1B5D164500370296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B56EDCD1B5D164500370296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B56EDCF1B5D164500370296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LaCible/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = be.businesstraining.LaCible;
+				PRODUCT_NAME = LaCible;
+			};
+			name = Debug;
+		};
+		7B56EDD01B5D164500370296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LaCible/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = be.businesstraining.LaCible;
+				PRODUCT_NAME = LaCible;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B56EDB71B5D164500370296 /* Build configuration list for PBXProject "LaCible" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B56EDCC1B5D164500370296 /* Debug */,
+				7B56EDCD1B5D164500370296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B56EDCE1B5D164500370296 /* Build configuration list for PBXNativeTarget "LaCible" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B56EDCF1B5D164500370296 /* Debug */,
+				7B56EDD01B5D164500370296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B56EDB41B5D164500370296 /* Project object */;
+}
